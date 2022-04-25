@@ -1,0 +1,43 @@
+p, li {
+    color: ghostwhite
+}
+
+img {
+    border-radius: 50%;
+    border: 2px;
+    border-style: solid;
+    border-color:  ghostwhite;
+    width: 300x;
+    height: 300px;
+}
+
+body {
+    background-color: steelblue;
+    /* background-image: url(images/background.jpg); */
+    font-family: 'Open Sans', sans-serif;
+    color: ghostwhite
+  }
+  
+
+  .wrapper {
+      display: grid;
+      gap: 10px;
+      background-color: steelblue;
+      margin-left: 10px;
+      color: ghostwhite;
+      font-family: 'Open Sans', sans-serif; 
+      grid-template-columns: 400px 400px 400px;
+  }
+
+  .header {
+    margin-left: auto;
+    grid-area: 1 / 1 / span 3 / span 1;
+  }
+
+.content {
+    grid-area: 2 / 2 / span 3 / span 3;
+}
+
+.sidebar {
+   grid-area: 1 / 2 / span 2 / span 2;
+}
