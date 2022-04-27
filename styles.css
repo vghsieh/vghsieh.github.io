@@ -9,7 +9,6 @@ img {
     border-color:  ghostwhite;
     width: 300x;
     height: 300px;
-    
 }
 
 body {
@@ -20,25 +19,34 @@ body {
   }
   
 
-  .wrapper {
+  #wrapper {
       display: grid;
       gap: 10px;
       background-color: steelblue;
-      margin: 5px;
-      padding: 5px;
+      margin: auto;
+      padding: 0;
       color: ghostwhite;
       font-family: 'Open Sans', sans-serif; 
       grid-template-columns: 400px 400px 400px;
   }
 
   .header {
-    margin-left: auto;
-    grid-area: 1 / 1 / span 3 / span 1;
+    margin: auto;
+    padding: 0;
+    grid-area: 1 / 1 / span 1 / span 1;
   }
 
 .about {
-    grid-area: 1 / 1.5 / span 1 / span 2;
+    margin: auto;
+    padding: 0;
+    grid-area: 1 / 1.5 / span 1 / span 1;
 }
 
 
+.refs {
+    text-align: center;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+}
 
